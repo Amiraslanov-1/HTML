@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.app {
+    width: 600px;
+    height: 770px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.app h1:first-child {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.app .basic-info label {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.app .basic-info .input {
+    margin-top: 10px;
+    width: 250px;
+    height: 35px;
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.gender h4:first-child {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.gender {
+    margin-left: 20px;
+}
+
+.gender input {
+    margin-right: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.degree {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.degree h4:first-child {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.degree input {
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.parametrs {
+    margin-left: 20px;
+}
+
+.parametrs h4:first-child {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.parametrs input {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+}
+
+.footer {
+    margin: auto;
+    width: 200px;
+}
+
+.footer input {
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.footer input:hover {
+    background-color: rgb(60, 114, 60);
+}

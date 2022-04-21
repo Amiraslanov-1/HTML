@@ -1,0 +1,70 @@
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .content-1 {
+            background-color: rgba(88, 140, 148, 1);
+            height: 170px;
+        }
+        
+        .content-1 h1 {
+            text-align: center;
+            padding-top: 65px;
+            font-size: 35px;
+            color: white;
+        }
+        
+        .content-2 {
+            background-color: #fff;
+            height: 260px;
+        }
+        
+        .content-2 .into {
+            width: 47%;
+            text-align: center;
+            margin: auto;
+        }
+        
+        .content-2 .into h1 {
+            font-size: 35px;
+            padding-top: 50px;
+            color: rgba(110, 110, 110, 1);
+            width: 650px;
+        }
+        
+        .content-2 .into p {
+            padding-top: 25px;
+            color: rgb(133, 133, 133);
+            font-size: 16px;
+            width: 90%;
+            padding-left: 10%;
+        }
+        
+        .content-3 {
+            background-color: rgba(29, 60, 65, 1);
+            height: 219px;
+            padding-left: 20%;
+        }
+        
+        .content-3 .card-1,
+        .card-2,
+        .card-3 {
+            display: inline-block;
+            width: 25%;
+            text-align: center;
+            color: #fff;
+            margin-top: 40px;
+        }
+        
+        .content-3 h1 {
+            font-size: 25px;
+        }
+        
+        .content-3 p {
+            font-size: 16px;
+            padding-top: 25px;
+            width: 280px;
+        }

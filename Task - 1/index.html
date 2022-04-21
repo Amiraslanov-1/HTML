@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <form>
+        <div class="app">
+
+            <h1 class="form-header">Blank Form</h1>
+
+            <div class="basic-info">
+
+                <label for="ad"> Name </label><br>
+                <input class="input" type="text" name="ad" id="ad" required><br>
+
+                <label for="soyad"> Surname </label><br>
+                <input class="input" type="text" name="soyad" id="soyad" required><br>
+
+                <label for="pass"> Password </label><br>
+                <input class="input" type="password" name="parol" id="pass" minlength="8" required>
+
+            </div>
+
+            <div class="gender">
+                <h4> Choose Your Gender </h4>
+                <label for="male">M</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">W</label>
+                <input type="radio" name="gender" id="female">
+            </div>
+            <div class="degree">
+                <h4>The degree you graduated from</h4>
+
+                <input class="check" type="checkbox" name="mid" id="mid">
+                <label for="mid"> Middle </label><br>
+
+                <input class="check" type="checkbox" name="bac" id="bac">
+                <label for="bac"> Bachelors </label><br>
+
+                <input class="check" type="checkbox" name="mas" id="mas">
+                <label for="mas"> Master </label><br>
+
+                <input class="check" type="checkbox" name="doc" id="doc">
+                <label for="doc"> Doctorate </label><br>
+            </div>
+
+            <div class="parametrs">
+                <h4>Your Parametrs</h4>
+                <label for="age"> Age </label><br>
+                <input type="number" id="age"><br>
+
+                <label for="height"> Height </label><br>
+                <input type="number" id="height"><br>
+
+                <label for="weight"> Weight </label><br>
+                <input type="number" id="weight"><br>
+
+            </div>
+            <div class="footer">
+
+                <input type="submit" value="Submit">
+
+            </div>
+
+
+        </div>
+    </form>
+</body>
+
+</html>
